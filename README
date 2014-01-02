@@ -1,0 +1,28 @@
+OverlayFS Linux kernel patches
+==============================
+
+Note, I am NOT a developer for the OverlayFS at all. But I desire to use
+OverlayFS and required kernel patches to apply to my kernel sources.
+
+The official OverlayFS sources are at
+http://git.kernel.org/cgit/linux/kernel/git/mszeredi/vfs.git/
+
+I was unable to find any patches to apply OverlayFS to an existing kernel
+source tree. It appears that OverlayFS is developed as branches in a git
+repo of the entire Linux kernel source tree. I extracted patches for each
+of the OverlayFS versions as per this procedure.
+
+However, I was unable to create patches for overlayfs.v11 and 
+overlayfs.v12.
+
+http://adis.ca/post/overlayfs-patch/
+
+Linux 3.12-rc2   overlayfs.v20
+Linux 3.11-rc2   overlayfs.v19
+Linux 3.10-rc7   overlayfs.v18
+Linux 3.9-rc2    overlayfs.v17
+Linux 3.9-rc2    overlayfs.v16
+Linux 3.6-rc4    overlayfs.v15
+Linux 3.6-rc1    overlayfs.v14
+Linux 3.4-rc7    overlayfs.v13
+

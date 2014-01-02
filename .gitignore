@@ -1,0 +1,5 @@
+# Ignore Mac OS X
+.DS_Store
+
+# Ignore build directories and custom configuration
+build

@@ -12,9 +12,6 @@ source tree. It appears that OverlayFS is developed as branches in a git
 repo of the entire Linux kernel source tree. I extracted patches for each
 of the OverlayFS versions as per this procedure.
 
-However, I was unable to create patches for overlayfs.v11 and 
-overlayfs.v12.
-
 http://adis.ca/post/overlayfs-patch/
 
 Linux 3.12-rc2   overlayfs.v20
@@ -25,4 +22,6 @@ Linux 3.9-rc2    overlayfs.v16
 Linux 3.6-rc4    overlayfs.v15
 Linux 3.6-rc1    overlayfs.v14
 Linux 3.4-rc7    overlayfs.v13
+
+I was unable to create patches for overlayfs.v11 and overlayfs.v12.
 
